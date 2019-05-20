@@ -9,7 +9,8 @@ def get_string_compare(str1,str2):
 
 ### Main ###
 
-str1 = input('Input str #1:')
+str1 = input('\nInput str #1:')
 str2 = input('Input str #2:')
+print(type(str1))
 str_compare = get_string_compare(str1, str2)
-print ('Compare our strings:',str_compare)
+print ('Compare our strings:',str_compare,'\n')
